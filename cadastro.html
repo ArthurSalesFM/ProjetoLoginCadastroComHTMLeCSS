@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Arthur Felipe MS">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    
+    <form action="#" method="get" autocomplete="off" class="form">
+
+        <fieldset class="form_fieldset">
+            
+            <legend class="form_title">Cadastre-se</legend>
+
+            <label for="user" class="form__label">Usuário</label>
+            <input type="text" id="user" name="user" required class="form__input" autofocus>
+
+            <label for="email" class="form__label">Email</label>
+            <input type="email" id="email" name="email" required class="form__input">
+
+            <label for="pass" class="form__label">Senha</label>
+            <input type="password" id="pass" name="pass" required class="form__input">
+
+            <div class="form__action">
+                <input type="submit" value="Cadastrar" class="btn btn-primary">
+                <p class="form__action__aside">Já possui cadastro? <a href="index.html">Faça Login</a> </p>
+            </div>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
